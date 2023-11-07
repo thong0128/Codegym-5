@@ -1,0 +1,32 @@
+div {
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    border: solid 10px #44a7a9;
+    border-top-width: 5px;
+}
+table {
+    width: fit-content;
+}
+td, th, table {
+    font-family: Arial;
+    border: 5px solid white;
+    border-collapse: collapse;
+}
+th {
+    background-color: #ff4c00;
+    color: #fff;
+    text-align: center;
+    border-color: white;
+}
+td {
+    color: #1731b1;
+    text-align: right;
+    vertical-align: top;
+    background-color: white;
+}
+.form {
+    color: #ff996c;
+    text-align: left;
+}
+

@@ -1,0 +1,27 @@
+table {
+    width: 500px;
+    border: solid 3px #fffda9;
+    background-color: #fffda9;
+}
+td, th {
+    font-family: Arial;
+    border: 5px solid fffda9;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th {
+    background-color: #d4fdd6;
+    color: #1341fd;
+    text-align: left;
+    font-size: large;
+}
+td {
+    color: #1731b1;
+    text-align: left;
+    vertical-align: top;
+}
+.form {
+    color: #ff996c;
+    text-align: left;
+}
+

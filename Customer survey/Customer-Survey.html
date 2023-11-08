@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html id="" lang="en">
+<head>
+    <title>
+        Market Research Survey
+    </title>
+    <link href="customer-Survey.css" rel="stylesheet">
+</head>
+
+<body>
+<div
+        id="container"
+        class="ltr ">
+    <form
+            id="form77"
+            name="form77"
+            method="post"
+            novalidate
+            action="Customer-Survey.html"
+    >
+        <header id="header" class="info">
+            <h2 class="">Market Research Survey</h2>
+            <div class="">Please take a few moments to complete this satisfaction survey. </div>
+        </header>
+        <ul>
+            <li>
+                <label class="desc notranslate">
+                    What is your age range?
+                </label>
+                <div>
+                    <select name="age" >
+                        <option value="18-24">18-24</option>
+                        <option value="25-34">25-34</option>
+                        <option value="35-50">35-50</option>
+                        <option value="50+"  >50+  </option>
+                    </select>
+                </div>
+            </li>
+
+            <li>
+                <label class="desc notranslate">
+                    What is your yearly income range?
+                </label>
+                <div>
+                    <select id="Field504" name="income" >
+                        <option value="$0 - $25,000" >$0 - $25,000</option>
+                        <option value="$25,001 - $50,000" >$25,001 - $50,000</option>
+                        <option value="$50,001 - $100,000" >$50,001 - $100,000</option>
+                        <option value="$100,000+" >$100,000+</option>
+                    </select>
+                </div>
+            </li>
+
+            <li>
+                <label class="desc">
+                    Gender Identity
+                </label>
+                <div>
+                    <input name="gender" type="radio" class="field radio" value="Male"/>
+                    <label class="choice">Male</label>
+                    <input name="gender" type="radio" class="field radio" value="Female"/>
+                    <label class="choice">Female</label>
+                    <input name="gender" type="radio" class="field radio" value="Nonbinary"/>
+                    <label class="choice">Nonbinary</label>
+                    <input name="gender" type="radio" class="field radio" value="Other"/>
+                    <label class="choice">Other</label>
+                    <input name="gender" type="text"  class="field text other" maxlength="250"/>
+                </div>
+            </li>
+
+            <li>
+                <label class="desc">
+                    Which of the following products have your purchased in the last 2 months. Please check all that apply.
+                </label>
+                <div>
+                    <input name="product" type="checkbox" class="field checkbox" value="Product 1"/>
+                    <label class="choice">Product 1</label>
+                    <input name="product" type="checkbox" class="field checkbox" value="Product 2"/>
+                    <label class="choice">Product 2</label>
+                    <input name="product" type="checkbox" class="field checkbox" value="Product 3"/>
+                    <label class="choice">Product 3</label>
+                </div>
+            </li>
+
+            <li>
+                <label class="desc">
+                    How often would you use our new product?
+                </label>
+                <div>
+                    <input name="often" type="radio" class="field radio" value="Daily"/>
+                    <label class="choice">Daily</label>
+                    <input name="often" type="radio" class="field radio" value="Weekly"/>
+                    <label class="choice">Weekly</label>
+                    <input class="field radio" name="often" type="radio" value="Monthly"/>
+                    <label class="choice">Monthly</label>
+                </div>
+            </li>
+
+            <li class="notranslate">
+                <label class="desc">
+                    What would you pay for the new product?
+                </label>
+                <span class="symbol">$</span>
+                <span>
+		        <input class="field text currency nospin" name="dollars" size="10" type="text"/>
+		        <label>Dollars</label>
+	            </span>
+                <span class="symbol radix">.</span>
+                <span class="cents">
+		        <input name="cents" type="text" class="field text nospin" size="2" maxlength="2"/>
+		        <label>Cents</label>
+	            </span>
+            </li>
+
+            <li class="notranslate">
+                <label class="desc">
+                    What features would you like to see in the new product.
+                </label>
+                <div>
+				<textarea class="field textarea medium" cols="50" name="features" rows="10"></textarea>
+                </div>
+            </li>
+
+            <li class="likert notranslate col4">
+                <table cellspacing="0">
+                    <caption>
+                        Please rate your level of agreement with the following statements.
+                    </caption>
+                    <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <td >Strongly Disagree</td>
+                        <td >Disagree</td>
+                        <td >Agree</td>
+                        <td >Strongly Agree</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="statement405"    >
+                        <th>
+                            <label>
+                                Our products are priced fairly.
+                            </label>
+                        </th>
+                        <td>
+                            <input name="fairprice" type="radio" value="Strongly Disagree"/>
+                            <label>1</label>
+                        </td>
+                        <td>
+                            <input name="fairprice" type="radio" value="Disagree"/>
+                            <label>2</label>
+                        </td>
+                        <td>
+                            <input name="fairprice" type="radio" value="Agree"/>
+                            <label>3</label>
+                        </td>
+                        <td>
+                            <input name="fairprice" type="radio" value="Strongly Agree"/>
+                            <label>4</label>
+                        </td>
+                    </tr>
+                    <tr class="alt statement404">
+                        <th>
+                            <label>
+                                Our products are high quality.
+                            </label>
+                        </th>
+                        <td>
+                            <input name="quality" type="radio" value="Strongly Disagree"/>
+                            <label>1</label>
+                        </td>
+                        <td>
+                            <input name="quality" type="radio" value="Disagree"/>
+                            <label>2</label>
+                        </td>
+                        <td>
+                            <input name="quality" type="radio" value="Agree"/>
+                            <label>3</label>
+                        </td>
+                        <td>
+                            <input name="quality" type="radio" value="Strongly Agree"/>
+                            <label>4</label>
+                        </td>
+                    </tr>
+                    <tr class="statement405"   >
+                        <th>
+                            <label>
+                                You would recommend our product to a friend or coworker.
+                            </label>
+                        </th>
+                        <td>
+                            <input name="recommend" type="radio" value="Strongly Disagree"/>
+                            <label>1</label>
+                        </td>
+                        <td>
+                            <input name="recommend" type="radio" value="Disagree"/>
+                            <label>2</label>
+                        </td>
+                        <td>
+                            <input name="recommend" type="radio" value="Agree"/>
+                            <label>3</label>
+                        </td>
+                        <td>
+                            <input name="recommend" type="radio" value="Strongly Agree"/>
+                            <label>4</label>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </li>
+
+
+
+
+            <li class="buttons ">
+                <div>
+                    <input type="hidden" name="currentPage" id="currentPage" value="Evsvr2wuslashAbQKTfplkTXUEOwQJuCaYnw8JgQ0BYME9Ix8=" />
+
+                    <input id="saveForm" name="saveForm" class="btTxt submit"
+                           type="submit" value="Submit"
+                           onmousedown="doSubmitEvents();" />
+
+
+
+                </div>
+            </li>
+
+            <li class="hide">
+                <label for="comment">Do Not Fill This Out</label>
+                <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                <input type="hidden" id="idstamp" name="idstamp" value="+bpKEg3bTqeopsWVpCuyKQ==" >
+                <input type="hidden" id="encryptedPassword" name="encryptedPassword" value="" >
+                <input type="hidden" id="stats" name="stats" value="{&quot;errors&quot;:0,&quot;startTime&quot;:0,&quot;endTime&quot;:0,&quot;referer&quot;:&quot;https:\/\/james.codegym.vn\/&quot;}" >
+                <input type="hidden" id="clickOrEnter" name="clickOrEnter">
+            </li>
+        </ul>
+    </form>
+
+
+
+</div><!--container-->
+
+
+<!-- OneTrust button -->
+
+<!-- JavaScript -->
+<script src="https://static.wufoo.com/scripts/public/dynamic.0688.js?language=english"></script>
+
+<script>
+    __RULES = [];
+    __ENTRY = [];
+    __PRICES = null;
+    __FORM_LIMIT = 20;
+    __SHOW_BRANDING = false;
+
+
+</script>
+
+
+
+
+</body>
+</html>
+<script type="text/javascript">__EMBEDKEY = "pyej3161l9pt0d89279"</script>
